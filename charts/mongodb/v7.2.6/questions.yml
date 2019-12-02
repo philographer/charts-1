@@ -61,6 +61,11 @@ questions:
     description: "MongoDB Password"
     type: password
     label: MongoDB Password
+  - variable: mongodbRootPassword
+    default: "password"
+    description: "MongoDB Root Password"
+    type: password
+    label: MongoDB Root Password
   - variable: mongodbDatabase
     default: "database"
     description: "MongoDB Database"
